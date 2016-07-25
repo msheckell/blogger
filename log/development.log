@@ -5312,3 +5312,11 @@ Processing by ArticlesController#show as HTML
   Rendered comments/_form.html.erb (0.8ms)
   Rendered articles/show.html.erb within layouts/application (46.3ms)
 Completed 200 OK in 85ms (Views: 79.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-25 15:14:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.1ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 1574ms (Views: 1545.8ms | ActiveRecord: 1.8ms)
